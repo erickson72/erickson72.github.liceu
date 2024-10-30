@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liceu Nacional Kwame N'Krumah</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery-3.7.1"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Liceu Nacional Kwame N'Krumah</h1>
+      <nav>
+        <ul>
+          <li><a href="#portal-aluno">Portal do Aluno</a></li>
+          <li><a href="#portal-professor">Portal do Professor</a></li>
+          <li><a href="#portal-admin">Portal Administrativo</a></li>
+          <li><a href="#materiais">Materiais Didáticos</a></li>
+          <li><a href="#notas">Notas</a></li>
+          <li><a href="#forum">Fórum de Dúvidas</a></li>
+          <li><a href="index.html">Sair</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="portal-aluno">
+      <h2>Portal do Aluno</h2>
+      <p>Seja Bem-vindo!</p>
+      <p>
+        Acesse seus materiais didáticos, notas e participe do fórum de dúvidas.
+      </p>
+      <button onclick="abrirPortal('aluno')">Entrar no Portal do Aluno</button>
+    </section>
+
+    <section id="portal-professor">
+      <h2>Portal do Professor</h2>
+      <p>
+        Lance notas, gerencie materiais didáticos e comunique-se com seus
+        alunos.
+      </p>
+      <button onclick="abrirPortal('professor')">
+        Entrar no Portal do Professor
+      </button>
+    </section>
+
+    <section id="portal-admin">
+      <h2>Portal Administrativo</h2>
+      <p>Gestão de matrículas, controle financeiro e emissão de documentos.</p>
+      <button onclick="abrirPortal('admin')">
+        Entrar no Portal Administrativo
+      </button>
+    </section>
+
+    <section id="materiais">
+      <h2>Materiais Didáticos</h2>
+      <p>Acessar as suas apostilas de matemática, Português e Ciências</p>
+      <button onclick="abrirPortal('materias')">
+        Entrar no portal materiais
+      </button>
+    </section>
+
+    <section id="notas">
+      <h2>Suas Notas</h2>
+      <p>Acessar as suas notas de Matemática, Português e Ciências</p>
+      <button onclick="abrirPortal('notas')">Entrar no portal notas</button>
+    </section>
+
+    <section id="forum">
+      <h2>Fórum de Dúvidas</h2>
+      <p>Participar de discussões com professores e colegas.</p>
+      <button onclick="alert('Fórum em desenvolvimento.')">
+        Acessar Fórum
+      </button>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2024 Liceu Nacional Kwame N'Krumah. Todos os direitos reservados.
+      </p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
